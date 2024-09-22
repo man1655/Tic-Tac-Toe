@@ -1,0 +1,50 @@
+body {
+    background-color: #A5B68D;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    border: none;
+    font-size: 8vmin;
+    color: rgba(146, 15, 15, 0.459);
+    background-color: #ffffc7;
+    cursor: pointer;
+}
+
+#rst, #newGameBtn, #newDrawBtn {
+    margin-top: 20px;
+    width: 15%;
+    height: 6vh;
+    background-color: #C1CFA1;
+    font-size: 1rem;
+}
+
+.messagecon, .drawMsg {
+    margin-top: 20px;
+    height: 100vh;
+    font-size: 50px;
+}
+
+.hide {
+    display: none;
+}
